@@ -1,1 +1,1 @@
-waste fellow
+print("sai")
