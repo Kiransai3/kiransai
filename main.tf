@@ -8,8 +8,8 @@ terraform {
 }
 
 provider "aws" {
-  region = "eu-north-1"
+  region = "us-east-1"
 }
 resource "aws_s3_bucket" "terraform-state" {
-  bucket = "saikiran1234321324"
+  bucket = "saikiran12343223351334524"
 }
