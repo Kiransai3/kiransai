@@ -13,3 +13,12 @@ provider "aws" {
 resource "aws_s3_bucket" "terraform-state" {
   bucket = "saikiran12343223351334524"
 }
+
+resource "aws_instance" "example" {
+  ami           = "ami-07ff62358b87c7116"
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "HelloWorld"
+  }
+}
