@@ -11,7 +11,7 @@ provider "aws" {
   region = "us-east-1"
 }
 resource "aws_s3_bucket" "terraform-state" {
-  bucket = "saikiran12343223351334524"
+  bucket = "sai12343223351334524"
 }
 
 resource "aws_instance" "example" {
@@ -19,6 +19,6 @@ resource "aws_instance" "example" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "sari"
   }
 }
